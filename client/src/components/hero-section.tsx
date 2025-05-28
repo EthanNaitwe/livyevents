@@ -50,7 +50,7 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
             onClick={scrollToPortfolio}
             variant="outline"
             size="lg"
-            className="border-2 border-white text-white hover:bg-white hover:text-primary font-medium text-lg px-8 py-4"
+            className="bg-primary text-white hover:bg-primary/90 border-2 font-medium text-lg px-8 py-4"
           >
             View Portfolio
           </Button>
