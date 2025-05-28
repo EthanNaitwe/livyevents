@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoPath from "@assets/342076980_734004598519479_3083377340864964193_n.jpeg";
 
 interface NavigationProps {
   onBookingClick: () => void;
@@ -39,7 +40,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img 
-              src="/attached_assets/342076980_734004598519479_3083377340864964193_n.jpeg" 
+              src={logoPath} 
               alt="Livy Events Logo" 
               className="h-12 w-auto"
             />

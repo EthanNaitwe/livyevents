@@ -1,4 +1,5 @@
 import { Instagram, Facebook, Linkedin, StarHalf } from "lucide-react";
+import logoPath from "@assets/342076980_734004598519479_3083377340864964193_n.jpeg";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
             <img 
-              src="/attached_assets/342076980_734004598519479_3083377340864964193_n.jpeg" 
+              src={logoPath} 
               alt="Livy Events Logo" 
               className="h-10 w-auto mb-6"
             />
