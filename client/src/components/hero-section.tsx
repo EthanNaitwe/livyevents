@@ -42,14 +42,14 @@ export default function HeroSection({ onBookingClick }: HeroSectionProps) {
           <Button 
             onClick={scrollToServices}
             size="lg"
-            className="bg-secondary text-white hover:bg-secondary/90 font-medium text-lg px-8 py-4"
+            className="bg-secondary text-white hover:bg-secondary/80 font-medium text-lg px-8 py-4"
           >
             Explore Our Services
           </Button>
           <Button 
             onClick={scrollToPortfolio}
             size="lg"
-            className="bg-primary text-white hover:bg-primary/90 font-medium text-lg px-8 py-4"
+            className="bg-primary text-white hover:bg-primary/80 font-medium text-lg px-8 py-4"
           >
             View Portfolio
           </Button>
