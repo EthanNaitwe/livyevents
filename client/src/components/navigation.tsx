@@ -38,7 +38,11 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <h1 className="text-2xl font-playfair font-bold text-primary">Livy Events</h1>
+            <img 
+              src="/attached_assets/342076980_734004598519479_3083377340864964193_n.jpeg" 
+              alt="Livy Events Logo" 
+              className="h-12 w-auto"
+            />
           </div>
           
           {/* Desktop Navigation */}

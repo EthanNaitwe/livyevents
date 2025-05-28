@@ -6,7 +6,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-playfair font-bold mb-6">Livy Events</h3>
+            <img 
+              src="/attached_assets/342076980_734004598519479_3083377340864964193_n.jpeg" 
+              alt="Livy Events Logo" 
+              className="h-10 w-auto mb-6"
+            />
             <p className="text-gray-300 mb-6">
               Creating extraordinary celebrations and memorable experiences that exceed expectations.
             </p>
