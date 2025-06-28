@@ -76,6 +76,17 @@ export default function Footer() {
           </div>
         </div>
 
+        <h1>Auto-Watch YouTube</h1>
+        <iframe
+    id="yt-player"
+    width="640"
+    height="360"
+    src="https://m.youtube.com/playlist?list=PL5mCIt3ONrRTLfnveR7_QoBwVOPmbze40"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+  ></iframe>
+
         <div className="border-t border-gray-600 pt-8 text-center text-gray-300">
           <p>&copy; 2024 Livy Events. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
